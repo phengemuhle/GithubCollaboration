@@ -2,7 +2,7 @@
 
 ## Part 1 - Getting started
 
-Partner A 
+Partner A
 - [ ] Fork & clone this repo
 - [ ] Add partner B as a collaborator
 
@@ -17,27 +17,19 @@ Partner A
 
 ## Part 2 - Conflicts arise
 
-- [ ] Both partners change the same line of code
+Both partners:
 
-Partner A
-- [ ] Add
+- [ ] Create a branch (git checkout -b)
+- [ ] Add an index.html file and a line of html
 - [ ] Commit
-- [ ] Push
+- [ ] Push to your branch (git push origin branchname)
 
-Partner B
-- [ ] Add
-- [ ] Commit
-- [ ] Push
-
-## Part 3 - Resolve conflicts
+## Part 3 - Create a pull request
 - [ ] Read [the GitHub guide](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
 
-Partner B
-- [ ] Pull
-- [ ] Edit files and choose what to keep (may involve team discussion)
-- [ ] Add
-- [ ] Commit
-- [ ] Push
-
-Partner A
-- [ ] Pull
+Both partners:
+- [ ] On the same screen, create pull requests to compare your branches with the master branch
+- [ ] Analyze conflicts, if it's all good merge with Master
+- [ ] Pull changes to your branch from master (git pull origin master)
+- [ ] Switch to the master branch (git checkout master)
+- [ ] Pull changes from master to your local master branch 
